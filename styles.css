@@ -1,0 +1,298 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/* Стили для шапки */
+header {
+  background-image: url("ukraine-header.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  height: 100vh;
+}
+
+
+/* Стили для навигации */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {  
+  color: #ffca28;
+}
+
+/* Стили для основного контента */
+.hero {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Стили для секций */
+section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 100px; /* Здесь можно изменить размер заголовка */
+}
+
+
+/*
+
+
+
+*/
+
+
+#about_section{
+  height: 100vh;
+  background-color: #3f619e;
+  background-size: cover;
+  color: #fff;
+}
+
+#about_section {
+  position: relative; /* Для позиционирования */
+  height: 100vh; /* Высота секции, можете настроить по вашему желанию */
+}
+
+.hero {
+  position: absolute; /* Для позиционирования */
+  top: 20px; /* Отступ сверху */
+  left: 150px; /* Отступ слева */
+}
+
+h1 {
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@900&display=swap');
+
+#about_section {
+  /* Добавьте нужные стили для секции */
+}
+
+.hero {
+  /* Добавьте нужные стили для блока "hero" */
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif; /* Используем Gilroy Black */
+  font-weight: 800; /* Указываем жирность шрифта */
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  padding-right: 100px;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+html,body{ font-family: arial; margin:0; }
+
+.flex {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+/* item */
+.flex .item {
+  max-width: 250px;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.flex .item:nth-child(2){ margin-left:1em; margin-right:1em; }
+
+/* внутри item */
+.flex .item .text,
+.flex .item .link{ margin-top: 2em; }
+
+.flex .item img { border-radius:50%; }
+.flex .item .text { flex-grow:1; }
+.flex .item .link a {
+  display: block;
+  padding: .5em 2em;
+  max-width: 160px;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  background:#6b6b6b;
+  border-radius:3px;
+}
+
+h1 {
+font-size: 65px; /* Размер шрифта в пикселях */
+}
+
+.hero_home h1 {
+  font-size: 110px; /* Установите желаемый размер шрифта в пикселях */
+}
+footer {
+  background-color: #f9f9f9;
+  padding: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-column {
+  flex-basis: 33.33%;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media a {
+  color: #333;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+}
+
+footer {
+  background-color: gray;
+  padding: 40px;
+  color: #fff; /* Измените цвет текста на белый или другой контрастный цвет */
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.flex.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  text-align: right; /* Выравнивание текста по середине */
+}
+
+.item .text {
+  margin-top: 20px;
+  padding-right: 70px; /* Замените 20px на нужное вам значение отступа */
+}
+
+.footer-column {
+  float: left;
+}
+
+.item .text {
+  margin-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {  
+  color: #ffca28;
+}
+
+.text {
+  text-align: center;
+}
+
+

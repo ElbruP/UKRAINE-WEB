@@ -1,0 +1,137 @@
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+/* Стили для шапки */
+header {
+  background-color: #bba574
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: #bba574
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: #bba574;
+}
+
+/* Стили для навигации */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Стили для основного контента */
+.hero {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+#hist {
+  padding: 40px;
+  background-color: #bba574;
+  text-align: center;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  padding-right: 100px;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  width: 600px; /* Устанавливаем ширину изображения в 600px */
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;  
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Стили для секций */
+section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+<div class="text">
+
+.text p {
+  font-size: 50px;
+}
+
+.text p:last-of-type {
+  font-size: 30px;
+}
+h1 {
+  font-size: 100px; /* Здесь можно изменить размер заголовка */
+    
+    
+
+    

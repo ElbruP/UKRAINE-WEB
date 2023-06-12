@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/* Стили для шапки */
+header {
+  background-image: url("Geology.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  height: 100vh;
+}
+
+
+/* Стили для навигации */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffca28;
+}
+
+/* Стили для основного контента */
+.hero {
+  margin-top: 100px;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 100px; /* Здесь можно изменить размер заголовка */
+}
+
+html,body{ font-family: arial; margin:0; }
+
+body {
+    background-color: #8298C7
+}

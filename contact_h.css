@@ -1,0 +1,141 @@
+img {
+      width: 400px; /* Измените значение здесь для увеличения размера */
+    }
+.container {
+  position: relative; /* Для позиционирования */
+  height: 100vh; /* Высота секции,*/
+}
+
+.text {
+  position: absolute; /* Для позиционирования */
+  top: 20px; /* Отступ сверху */
+  left: 150px; /* Отступ слева */
+}
+
+h1 {    
+  margin: 0;
+}
+
+p {
+  margin-bottom: 8px; /* отступ снизу */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@900&display=swap');
+
+#about_section {
+  /* Добавьте нужные стили для секции */
+}
+
+.hero {
+  /* Добавьте нужные стили для блока "hero" */
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif; /* Используем Gilroy Black */
+  font-weight: 100; /* Указываем жирность шрифта */
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  padding-right: 100px;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.image {
+  margin-left: 100px;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+body {
+  color: black;
+}
+
+body {
+  font-family: "Fedra sans", sans-serif;
+}   
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Fedra sans, Arial, sans-serif;
+}
+
+img {
+  border-radius: 8%; /* Закругление границ изображения на 0% */
+}
+
+.container .image {
+  margin-left: 65px;
+}
+
+.container_p {
+  position: relative;
+  height: 150px; /* Высота контейнера, указывается по вашему выбору */
+  width: 600px; /* Ширина контейнера, указывается по вашему выбору */
+}
+
+.container_p p {
+  position: relative; /* Для позиционирования */
+  bottom: 0;
+  left: 0;
+}
+
+header {
+  background-color: #979797;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffca28;
+}
+
+html,body{ font-family: arial; margin:0; }
